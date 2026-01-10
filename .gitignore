@@ -5,7 +5,7 @@
 *.out
 
 # Specific files
-documentation_template.txt
+doc_template.txt
 
 # IDE specific files and folders
 .vscode/
