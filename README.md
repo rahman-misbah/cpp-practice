@@ -16,4 +16,5 @@ Collection of small C++ programs for learning and reference.
 3. Run: `./program`
 
 ## Progress Log
-- `10/01/2026` - Added a prime number checker with support for command line arguments
+- `10/01/2026` - Added a fibonacci term generator using iterative approach with support for command line arguments.
+- `10/01/2026` - Added a prime number checker with support for command line arguments.
