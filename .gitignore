@@ -1,8 +1,11 @@
 # Learning and experimentation folder
 .learning/
 
+# File types
+*.out
+
 # Specific files
-.out
+documentation_template.txt
 
 # IDE specific files and folders
 .vscode/
