@@ -1,11 +1,11 @@
 /*
- * File: 
- * Date: 
+ * File: fibonacci.cpp
+ * Date: 10/01/2026
  * Purpose: Generate nth fibonacci number. Can accept command line argument.
  * Features: Uses the iterative approach [O(n), O(1)]
- * Compilation: g++ -std=c++11 -o prime_checker prime_checker.cpp
- * Usage: 
- * Example: 
+ * Compilation: g++ -std=c++11 -o fibonacci fibonacci.cpp
+ * Usage: ./fibonacci <number> or ./fibonacci
+ * Example: ./fibonacci 10 -> "34"
  * Author: Misbahur Rahman
  */
 
