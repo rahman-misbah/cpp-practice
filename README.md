@@ -3,10 +3,12 @@
 Collection of small C++ programs for learning and reference.
 
 ## Structure
-- `algorithms/` - Common algorithms and data structures
+- `algorithms/` - Common algorithms
+- `data-structures/` - Common data structures
 - `cpp-features/` - Modern C++ features exploration
 - `leetcode/` - LeetCode problem solutions
 - `utilities/` - Reusable helper functions
+- `projects/` - Small projects
 
 ## How to Use
 1. Clone: `git clone https://github.com/rahman-misbah/cpp-practice.git`
