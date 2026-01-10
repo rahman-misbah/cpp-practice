@@ -2,6 +2,7 @@
  * File: prime_checker.cpp
  * Date: 10/01/2026
  * Purpose: Checks if a number is prime. Can accept argument from command line.
+ * Complexity: O(log n), O(1)
  * Compilation: g++ -std=c++11 -o prime_checker prime_checker.cpp
  * Usage: ./prime_checker <number> or ./prime_checker
  * Example: ./prime_checker 17 -> "17 is a prime"
