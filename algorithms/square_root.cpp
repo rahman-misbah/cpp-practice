@@ -30,7 +30,6 @@
  * Author: Misbahur Rahman
  * 
  * Limitations:
- *      - No iteration limit. Could loop infinitely for bad tolerance 
  *      - Doesn't handle leading and trailing spaces
  *      - Spaghetti code for input validation
  * 
