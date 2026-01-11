@@ -48,7 +48,7 @@ using std::string;
 
 namespace math {
     // Can't take tolerance below 1e-14, machine limitations
-    double sqrt(double num, double tolerance = 1e-14);
+    double sqrt(double num, double tolerance = 1e-14, size_t max_iter = 100);
 }
 
 double validate_double(string num_str);
@@ -92,12 +92,13 @@ double validate_double(string num_str) {
 }
 
 // TODO: Implement error handling for infinite loop in case of unchanging error
-double math::sqrt(double num, double tolerance) {
+double math::sqrt(double num, double tolerance, size_t max_iter) {
     if(num < 0) return NAN;
     if(num == 0 || num == 1) return num;
 
     double low, high, mid;  // For binary search
-    double mid_square, error = 1 + tolerance; 
+    double mid_square, error = 1 + tolerance;
+    size_t iter_count = 0;
 
     // If the number is less than 1, its square root lies between 0 and 1.
     // In any other case (except 1), the square root will be greater than 1.
@@ -109,13 +110,15 @@ double math::sqrt(double num, double tolerance) {
         high = num;
     }
 
-    while(error > tolerance) {
+    while(error > tolerance && iter_count < max_iter) {
         mid = low + (high - low) / 2;
         mid_square = mid * mid;
         error = std::abs(mid_square - num);
 
         if(mid_square > num) high = mid;
         else low = mid;
+
+        iter_count++;
     }
 
     return mid;
