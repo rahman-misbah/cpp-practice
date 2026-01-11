@@ -1,6 +1,6 @@
 /*
  * File: fibonacci.cpp
- * Date: 10/01/2026
+ * Date: 2026-01-10
  * Purpose: Generate nth fibonacci number. Can accept command line argument.
  * Features: Uses the iterative approach. 
  * Complexity: O(n), O(1)

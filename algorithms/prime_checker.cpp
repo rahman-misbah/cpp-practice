@@ -1,6 +1,6 @@
 /*
  * File: prime_checker.cpp
- * Date: 10/01/2026
+ * Date: 2026-01-10
  * Purpose: Checks if a number is prime. Can accept argument from command line.
  * Complexity: O(log n), O(1)
  * Compilation: g++ -std=c++11 -o prime_checker prime_checker.cpp
