@@ -33,12 +33,9 @@ int main(int argc, char* argv[]) {
     try {
         n = std::stoi(input, &pos);
 
-        if(pos != input.size()) {
-            std::cerr << "ERROR: " << input << " is not a valid integer" << std::endl;
-            return EXIT_FAILURE;
-        }
+        if(pos != input.size()) throw std::invalid_argument("");
         if(n < 1) {
-            std::cerr << "ERROR: Input must be greater than 0. " << input << " is not greater than 0" << std::endl;
+            std::cerr << "ERROR: Input must be positive. " << input << " is not positive" << std::endl;
             return EXIT_FAILURE;
         }
     } catch (const std::invalid_argument&) {
