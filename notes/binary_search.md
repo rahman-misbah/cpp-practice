@@ -16,3 +16,4 @@ Where $\lfloor x \rfloor$ is the floor function.
 - Find **last occurrence** of an element in a sorted array
 - Find **total occurrence** of an element in a sorted array
 - Find peak element in a **bitonic sequence** (strictly increasing then strictly decreasing)
+- Find pivot element in a **rotated sorted array**
