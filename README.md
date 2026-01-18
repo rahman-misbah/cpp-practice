@@ -17,6 +17,7 @@ Collection of small C++ programs for learning and reference.
 3. Run: `./program`
 
 ## Progress Log
+- `2026-01-18` - Added notes for binary search and finding peak element.
 - `2026-01-18` - Added a peak element finder for bitonic sequences using binary search.
 - `2026-01-18` - Added a first occurrence, last occurence and total occurrence checker using binary search.
 - `2026-01-18` - Added simple binary search using loops.
