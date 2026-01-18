@@ -6,5 +6,7 @@ It is an efficient searching algorithm that works on **monotonic sequences**, wh
 - Space Complexity: $\mathcal{O}(1)$
 
 ## Number of Comparisons
-To calculate the number of comparisons, the following formula is used:
+To calculate the number of comparisons, the following formula used is
 $$\text{Comparisons} = \lfloor \log_2N\rfloor + 1$$
+
+Where $\lfloor x \rfloor$ is the floor function.
