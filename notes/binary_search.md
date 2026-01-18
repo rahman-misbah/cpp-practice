@@ -10,3 +10,9 @@ To calculate the number of comparisons, the following formula used is
 $$\text{Comparisons} = \lfloor \log_2N\rfloor + 1$$
 
 Where $\lfloor x \rfloor$ is the floor function.
+
+## Applications
+- Find **first occurrence** of an element in a sorted array
+- Find **last occurrence** of an element in a sorted array
+- Find **total occurrence** of an element in a sorted array
+- Find peak element in a **bitonic sequence** (strictly increasing then strictly decreasing)
