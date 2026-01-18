@@ -1,5 +1,5 @@
 /*
- * File: binary_search.cpp
+ * File: first_last_total_occurrence.cpp
  * Date: 2026-01-18
  * 
  * Purpose: 
@@ -11,7 +11,7 @@
  *      Space: O(1)
  * 
  * Compilation:
- *      g++ -std=c++11 -o binary_search binary_search.cpp
+ *      g++ -std=c++11 -o first_last_total_occurrence first_last_total_occurrence.cpp
  * 
  * Usage: 
  *      ./first_last_total_occurrence
