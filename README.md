@@ -13,8 +13,8 @@ Collection of small C++ programs for learning and reference.
 
 ## How to Use
 1. Clone: `git clone https://github.com/rahman-misbah/cpp-practice.git`
-2. Compile: `g++ -std=c++11 -o program program.cpp`
-3. Run: `./program`
+2. Compile: `g++ -std=c++11 -o <program> <program.cpp>`
+3. Run: `./<program>`
 
 ## Progress Log
 - `2026-01-21` - Added code and notes for bubble sort and insertion sort
