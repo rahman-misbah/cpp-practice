@@ -6,9 +6,11 @@ At its core, sorting is just about putting data in a specific order (like 1,2,3 
 ### Properties
 > **Time Complexity:** $\mathcal{O}(n^2)$ \
 > **Space Complexity:** $\mathcal{O}(1)$ \
-> **Stablity:** Unstable
+> **Stablity:** Unstable \
+> **Adaptivity:** Non-Adaptive
 
 ### Code
+
 ```python
 def selection_sort(arr):
     n = len(arr)
@@ -28,6 +30,38 @@ def selection_sort(arr):
     return arr
 ```
 
+## Bubble Sort
+
+### Properties
+> **Time Complexity:** $\mathcal{O}(n^2)$ \
+> **Space Complexity:** $\mathcal{O}(1)$ \
+> **Stablity:** Stable \
+> **Adaptivity:** Adaptive
+
+### Code
+
+```python 
+def adaptive_bubble_sort(arr):
+    n = len(arr)
+    
+    for i in range(n):
+        # 1. Initialize the flag as False at the start of each pass
+        swapped = False
+        
+        # 2. Last i elements are already in place
+        for j in range(0, n - i - 1):
+            if arr[j] > arr[j + 1]:
+                # Swap if the element found is greater than the next
+                arr[j], arr[j + 1] = arr[j + 1], arr[j]
+                # 3. If a swap happened, set flag to True
+                swapped = True
+        
+        # 4. If no two elements were swapped by inner loop, then break
+        if not swapped:
+            break
+            
+    return arr
+```
 
 # What to Consider When Choosing an Algorithm
 
