@@ -41,7 +41,7 @@ def selection_sort(arr):
 ### Code
 
 ```python 
-def adaptive_bubble_sort(arr):
+def bubble_sort(arr):
     n = len(arr)
     
     for i in range(n):
