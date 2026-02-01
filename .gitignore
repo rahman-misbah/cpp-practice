@@ -1,5 +1,6 @@
 # Learning and experimentation folder
 .learning/
+gcm.cache/
 
 # File types
 *.out
